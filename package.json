@@ -58,6 +58,9 @@
       "createDesktopShortcut": true,
       "shortcutName": "NeX Hub",
       "artifactName": "NeX-Hub-Setup.${ext}"
+    },
+    "portable": {
+      "artifactName": "NeX-Hub-Portable-${version}.${ext}"
     }
   }
 }
