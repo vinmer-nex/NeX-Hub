@@ -1,0 +1,63 @@
+{
+  "name": "nex-hub",
+  "version": "1.0.0",
+  "description": "NeX Hub — оффлайн менеджер проектов",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron .",
+    "dist": "electron-builder",
+    "postinstall": "node scripts/fetch-native.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinmer-nex/NeX-Hub.git"
+  },
+  "homepage": "https://github.com/vinmer-nex/NeX-Hub#readme",
+  "bugs": {
+    "url": "https://github.com/vinmer-nex/NeX-Hub/issues"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^12.11.1",
+    "uuid": "^14.0.1"
+  },
+  "devDependencies": {
+    "electron": "^42.11.15",
+    "electron-builder": "^26.15.3"
+  },
+  "build": {
+    "appId": "com.nexhub.app",
+    "productName": "NeX Hub",
+    "npmRebuild": false,
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "electron/**/*",
+      "client/**/*",
+      "package.json"
+    ],
+    "asarUnpack": [
+      "**/node_modules/better-sqlite3/**"
+    ],
+    "win": {
+      "icon": "build/icon.ico",
+      "target": [
+        "nsis",
+        "portable"
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "shortcutName": "NeX Hub",
+      "artifactName": "NeX Hub Setup.${ext}"
+    }
+  }
+}

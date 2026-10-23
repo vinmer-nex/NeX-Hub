@@ -1,0 +1,165 @@
+{
+  "label": "after-client",
+  "kind": "ui",
+  "generatedAt": "2026-10-22T11:20:30.409Z",
+  "runtime": {
+    "electron": "42.11.15",
+    "chrome": "148.0.7778.280",
+    "node": "24.19.0"
+  },
+  "db": {
+    "source": "C:\\Users\\ADMIN\\Desktop\\NeX Maneger\\projecthub-v2\\data\\projecthub.db",
+    "tempCopy": "C:\\Users\\ADMIN\\AppData\\Local\\Temp\\opencode\\nexbench\\after-client\\ui-1792668028867.db",
+    "uploads": "C:\\Users\\ADMIN\\Desktop\\NeX Maneger\\projecthub-v2\\uploads",
+    "userData": "C:\\Users\\ADMIN\\AppData\\Local\\Temp\\opencode\\nexbench\\after-client\\ui-1792668028867-userdata",
+    "userId": 2,
+    "rememberUserId": "2",
+    "pinHashCount": 0
+  },
+  "boot": {
+    "process_start": 1792668028865,
+    "setup_done": 1792668029078,
+    "app_ready": 1792668029175,
+    "loading_hidden": 1792668030109
+  },
+  "startup_ms": 1244,
+  "startup_core_ms": 1031,
+  "app_ready_ms": 310,
+  "loading_hidden_after_ready_ms": 934,
+  "detailProjectId": "proj_1781451235262_w4shg6",
+  "detailProjectNotes": 8,
+  "detailProjectChecklist": 25,
+  "detailProjectPhotos": 0,
+  "discoveryError": null,
+  "projectCount": 10,
+  "scenarios": {
+    "list_load_render": {
+      "median": 10.799999999813735,
+      "p95": 25.200000000186265,
+      "min": 5.7999999998137355,
+      "max": 25.200000000186265,
+      "samples": [
+        10.799999999813735,
+        25.200000000186265,
+        5.7999999998137355
+      ]
+    },
+    "list_render_warm": {
+      "median": 3.7999999998137355,
+      "p95": 4.2000000001862645,
+      "min": 2.8999999999068677,
+      "max": 4.2000000001862645,
+      "samples": [
+        2.8999999999068677,
+        3.5,
+        3.8999999999068677,
+        4.2000000001862645,
+        3.7999999998137355
+      ]
+    },
+    "detail_open": {
+      "median": 6,
+      "p95": 12.100000000093132,
+      "min": 4.300000000279397,
+      "max": 12.100000000093132,
+      "samples": [
+        12.100000000093132,
+        6.300000000279397,
+        4.300000000279397,
+        5.699999999720603,
+        6
+      ]
+    },
+    "detail_tab_checklist": {
+      "median": 6.100000000093132,
+      "p95": 7.800000000279397,
+      "min": 4.2000000001862645,
+      "max": 7.800000000279397,
+      "samples": [
+        7.800000000279397,
+        7.699999999720603,
+        4.2000000001862645,
+        4.600000000093132,
+        6.100000000093132
+      ]
+    },
+    "detail_tab_versions": {
+      "median": 2.5,
+      "p95": 3.8000000002793968,
+      "min": 2.099999999627471,
+      "max": 3.8000000002793968,
+      "samples": [
+        2.7000000001862645,
+        2.2000000001862645,
+        2.099999999627471,
+        2.5,
+        3.8000000002793968
+      ]
+    },
+    "detail_tab_photos": {
+      "median": 1.6000000000931323,
+      "p95": 2.1000000000931323,
+      "min": 1.5,
+      "max": 2.1000000000931323,
+      "samples": [
+        2.1000000000931323,
+        1.7000000001862645,
+        1.6000000000931323,
+        1.5,
+        1.5
+      ]
+    },
+    "detail_tab_notes": {
+      "median": 3.2999999998137355,
+      "p95": 6.5,
+      "min": 3.1999999997206032,
+      "max": 6.5,
+      "samples": [
+        6.5,
+        3.1999999997206032,
+        3.2000000001862645,
+        3.2999999998137355,
+        3.3000000002793968
+      ]
+    },
+    "kanban_open": {
+      "median": 6,
+      "p95": 7.399999999906868,
+      "min": 3.8999999999068677,
+      "max": 7.399999999906868,
+      "samples": [
+        7.399999999906868,
+        6,
+        3.8999999999068677
+      ]
+    },
+    "calendar_open": {
+      "median": 1.8999999999068677,
+      "p95": 4.5,
+      "min": 1.5,
+      "max": 4.5,
+      "samples": [
+        4.5,
+        1.8999999999068677,
+        1.5,
+        1.6999999997206032,
+        2
+      ]
+    },
+    "dashboard_open": {
+      "median": 3.400000000372529,
+      "p95": 7,
+      "min": 3.1000000000931323,
+      "max": 7,
+      "samples": [
+        7,
+        3.400000000372529,
+        3.3000000002793968,
+        4.399999999906868,
+        3.1000000000931323
+      ]
+    }
+  },
+  "errors": [],
+  "consoleErrors": []
+}

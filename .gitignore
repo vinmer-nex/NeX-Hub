@@ -1,0 +1,35 @@
+# Зависимости
+node_modules/
+
+# Локальные данные приложения (SQLite, загрузки, экспорт)
+data/
+save/
+uploads/
+
+# Результаты сборки
+release/
+dist/
+
+# Локальные настройки и секреты
+.env
+.env.local
+.env.*.local
+
+# Логи
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Временные файлы
+tmp/
+temp/
+*.tmp
+*.temp
+
+# ОС и редакторы
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
