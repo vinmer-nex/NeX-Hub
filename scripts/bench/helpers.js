@@ -6,7 +6,7 @@ const { execFileSync } = require('child_process');
 
 const PROJECT_ROOT = path.resolve(__dirname, '..', '..');
 const TEMP_ROOT = path.join(
-  process.env.LOCALAPPDATA || process.env.TEMP || 'C:\\Users\\ADMIN\\AppData\\Local',
+  process.env.LOCALAPPDATA || process.env.TEMP || 'C:\\Windows\\Temp',
   'Temp',
   'opencode',
   'nexbench'
