@@ -15,7 +15,7 @@
 
 [О проекте](#о-проекте) · [Скачать](#скачать) · [Возможности](#возможности) · [Скриншоты](#скриншоты) · [Технологии](#технологии) · [Установка](#быстрый-старт)
 
-[![Скачать для Windows](https://img.shields.io/badge/Скачать-NeX%20Hub%20Setup.exe-2f6df6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/vinmer-nex/NeX-Hub/releases/latest/download/NeX%20Hub%20Setup.exe)
+[![Скачать для Windows](https://img.shields.io/badge/Скачать-NeX--Hub--Setup.exe-2f6df6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/vinmer-nex/NeX-Hub/releases/latest/download/NeX-Hub-Setup.exe)
 
 </div>
 
@@ -33,7 +33,7 @@ NeX Hub ориентирован на Windows и распространяетс�
 
 | Сборка | Ссылка |
 |---|---|
-| Установщик для Windows (NSIS) | **[NeX Hub Setup.exe](https://github.com/vinmer-nex/NeX-Hub/releases/latest/download/NeX%20Hub%20Setup.exe)** |
+| Установщик для Windows (NSIS) | **[NeX-Hub-Setup.exe](https://github.com/vinmer-nex/NeX-Hub/releases/latest/download/NeX-Hub-Setup.exe)** |
 | Портативная версия и все релизы | [Releases](https://github.com/vinmer-nex/NeX-Hub/releases) |
 
 Актуальная версия — **1.0.0**. Установщик не подписан цифровой подписью, поэтому Windows SmartScreen может показать предупреждение: нажмите **«Подробнее» → «Выполнить в любом случае»**.
